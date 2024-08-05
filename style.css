@@ -95,15 +95,18 @@ ul {
 }
 .section-three-container > span {
   align-self: flex-end;
+  font-weight: bold;
 }
 .section-four {
   display: flex;
   flex-direction: row;
   margin: 100px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #3882f6;
   color: white;
   justify-content: space-between;
+  padding-left: 120px;
+  height: 150px;
 }
 .section-four > form {
   display: flex;
@@ -115,6 +118,14 @@ ul {
 .call {
   display: flex;
   flex-direction: column;
+  border: 1px solid black;
+  justify-content: center;
+  width: 50vw;
+}
+.call h3,
+.call p {
+  margin: 0;
+  padding: 0;
 }
 .footer {
   display: flex;
