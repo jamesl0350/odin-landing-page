@@ -101,12 +101,14 @@ ul {
   display: flex;
   flex-direction: row;
   margin: 100px;
+  margin-left: 300px;
   border-radius: 5px;
   background-color: #3882f6;
   color: white;
   justify-content: space-between;
   padding-left: 120px;
   height: 150px;
+  width: 60vw;
 }
 .section-four > form {
   display: flex;
@@ -118,7 +120,6 @@ ul {
 .call {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   justify-content: center;
   width: 50vw;
 }
